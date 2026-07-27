@@ -1,0 +1,72 @@
+[
+  {
+    id: 8558933,
+    name: 'Vedanga Gupta',
+    email: 'vedanga_gupta@fahey-berge.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8558931,
+    name: 'Dr. Aslesha Jha',
+    email: 'dr_jha_aslesha@zulauf.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8558930,
+    name: 'Balagovind Devar',
+    email: 'balagovind_devar@christiansen.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8558929,
+    name: 'Anila Reddy',
+    email: 'anila_reddy@stanton-morar.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8558928,
+    name: 'Vimala Sethi',
+    email: 'sethi_vimala@abernathy.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8558927,
+    name: 'Sarla Mishra',
+    email: 'sarla_mishra@wisoky.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8558926,
+    name: 'Kanaka Dhawan',
+    email: 'dhawan_kanaka@gusikowski.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8558925,
+    name: 'Acharyasuta Varrier',
+    email: 'varrier_acharyasuta@wisozk-grady.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8558924,
+    name: 'Geetanjali Guha',
+    email: 'guha_geetanjali@koelpin.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8558923,
+    name: 'Agasti Shukla',
+    email: 'shukla_agasti@gerlach.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
