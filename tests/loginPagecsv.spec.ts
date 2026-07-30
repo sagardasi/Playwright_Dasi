@@ -20,7 +20,7 @@ await CD.forLogin()
 let DD = new forLogin1(page)
 await DD. getEmailAddress(data.email)
 await DD.getPassword(data.password)
-DD.getLogin()
+await DD.getLogin()
 await page.waitForLoadState('networkidle')
 
 if (data.expected.toLowerCase ()==='success'){
