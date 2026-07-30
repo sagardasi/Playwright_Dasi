@@ -10,7 +10,7 @@ const jsonTestData=DataProvider1.getTestDataFromJson(jsonPath)
 for(const data of jsonTestData)
 {
 
-test(`Login test from JSON file: ${data.testName}`, async({page})=>{
+test(`Login test from JSON file: ${data.testName} @sanity`, async({page})=>{
 await page.goto (TestConfig.appUrl)
  await page.waitForTimeout(5000)
 
