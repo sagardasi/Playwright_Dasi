@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { TestConfig } from '../test.Config';
 import { SearchPage } from '../pages/Search';
 
-test('TC_006_SearchProduct_Negative', async ({ page }) => {
+test('TC_006_SearchProduct_Negative @master', async ({ page }) => {
 
     await page.goto(TestConfig.appUrl);
 

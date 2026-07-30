@@ -3,7 +3,7 @@ import { TestConfig } from '../test.Config'
  
  
 
-test('Invalid login test', async({page, homePage, loginPage})=>{
+test('Invalid login test @master', async({page, homePage, loginPage})=>{
     await page.goto(TestConfig.appUrl);
     //await let  hp = new HomePage(page)
    

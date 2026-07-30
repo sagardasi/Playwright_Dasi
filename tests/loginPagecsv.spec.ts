@@ -10,7 +10,7 @@ const testD=DataProvider1.getTestDataFromCsv(csvPath)
 for(const data of testD)
 {
 
-test(`Login test from CSV file: ${data.testName}`, async({page})=>{
+test(`Login test from CSV file: ${data.testName} @datadriven, @sanity`, async({page})=>{
 await page.goto (TestConfig.appUrl)
  await page.waitForTimeout(5000)
 

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { TestConfig } from '../test.Config';
 import { SearchPage } from '../pages/Search';
 
-test('TC_005_SearchProduct_Positive', async ({ page }) => {
+test('TC_005_SearchProduct_Positive @datadriven, @sanity', async ({ page }) => {
 
     await page.goto(TestConfig.appUrl);
 
